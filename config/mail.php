@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => 'smtp',
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => 'mx1.hostinger.ph',
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'maimai@jjmor.tech'),
-        'name' => env('MAIL_FROM_NAME', 'John Val'),
+        'address' => 'cindy@bais.jjmor.tech',
+        'name' => 'Mai Mai',
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => 'maimai@jjmor.tech',
+    'username' => 'cindy@bais.jjmor.tech',
 
-    'password' => 'academia',
+    'password' => 'masterpapaya21',
 
     /*
     |--------------------------------------------------------------------------
